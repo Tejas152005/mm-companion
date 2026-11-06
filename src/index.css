@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-paper text-ink font-sans antialiased;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+:focus-visible{outline:2px solid #2F5D46;outline-offset:2px}
+.btn{@apply rounded-xl px-5 py-3 font-medium min-h-[48px] w-full}
+.btn-primary{@apply bg-ink text-paper}.btn-ghost{@apply border border-ink/25 text-ink}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
